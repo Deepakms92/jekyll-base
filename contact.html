@@ -1,189 +1,146 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
 <html>
-<head>
-<title>The Retina Website Template | Contact :: w3layouts</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!--nav-->
-<script src="js/jquery.min.js"></script>
-<script>
-		$(function() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
-
-			$(pull).on('click', function(e) {
-				e.preventDefault();
-				menu.slideToggle();
-			});
-
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
-		});
-</script>
-</head>
-<body>
-<div class="header_bg">
-<div class="wrap">
-		<div class="header">
-		<div class="logo">
-			<a href="index.html"><img src="images/logo.png" alt="" /></a>
-		</div>		
-	<!-- start h_menu4 -->
-					<div class="h_menu4">
-					<a class="toggleMenu" href="">Menu</a>
-					<ul class="nav">
-						<li><a href="index.html">HOME</a></li>
-						<li><a href="portfolio.html" class="root">portfolio</a></li>
-						<li><a href="service.html">services</a>
-							<ul>
-								<li><a href="portfolio.html">About</a></li>
-								<li><a href="service.html">Archives</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="staff.html">Gallery</a></li>
-							</ul>
-						</li>
-						<li><a href="staff.html">staff</a></li>
-						<li><a href="blog.html">blog</a></li>
-							<li><a class="active" href="contact.html">CONTACT</a></li>
-						</ul>
-						<script type="text/javascript" src="js/nav.js"></script>
+	<head>
+		<title>business Website Template | Home :: w3layouts</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Kite+One' rel='stylesheet' type='text/css'>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <!---start-Reset-script------->
+        <script script type="text/javascript" src="resetscript.js"></script>
+         <!---//End-Reset-script------>
+		</head>
+	<body>
+		<!---strat-wrap---->
+			<!---strat-header---->
+			<div class="header">
+				<div class="wrap">
+				<!---start-logo--->
+				<div class="logo">
+					<ul>
+						<li><a  href="index.html"><img src="images/logo.png" alt="" /></a></li>
+						
+						<li class="line"> <h6> </h6> <span>As stands outlike clucky how she'll be right</span></li>
+						<div class="clear"> </div>
+					</ul>
 				</div>
-				<!-- end h_menu4 -->
-
-		<div class="clear"></div>
-	</div>
-</div>
-</div>
-<!-- start mian -->
-<div class="main_bg">
-<div class="wrap">
-<div class="main">
-	 	 <div class="contact">				
-					<div class="contact_info">
-						<h2 class="style">get in touch</h2>
-			    	 		<div class="map">
-					   			<iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265&amp;output=embed"></iframe><br><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="color:#202227;text-align:left;font-size:1em">View Larger Map</a></small>
-					   		</div>
-      				</div>
-				  <div class="contact-form">
-			 	 <div class="content">
-		 	 	<h2 class="style">Contact Us</h2>
-		 	 </div>
-					    <form method="post" action="contact-post.html">
-					    	<div>
-						    	<span><label>NAME</label></span>
-						    	<span><input name="userName" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>E-MAIL</label></span>
-						    	<span><input name="userEmail" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						     	<span><label>MOBILE</label></span>
-						    	<span><input name="userPhone" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>SUBJECT</label></span>
-						    	<span><textarea name="userMsg"> </textarea></span>
-						    </div>
-						   <div>
-						   		<span><input type="submit" class="" value="Submit us"></span>
-						  </div>
-					    </form>
-				    </div>
-  				<div class="clear"> </div>		
-			  </div>
+				<!---//End-logo--->
+				<!----start-top-nav---->
+				<div class="top-nav">
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="service.html">Our services</a></li>
+						<li><a href="service.html">Our team</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="clear"> </div>
+				<!----//End-top-nav---->
+			</div>
+			<!---//End-wrap---->
+			<!---End-header---->
 		</div>
+		
+<!--------start contacts--------->
+			<div  class="contact-content">
+				<div class="contact-map">
+					<iframe width="100%" height="50%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/?ie=UTF8&amp;ll=19.621892,76.849365&amp;spn=4.340154,7.67395&amp;t=m&amp;z=8&amp;output=embed"> </iframe>
+				</div>
+				<div class="wrap">
+				<div class="form">
+					<div class="contact-grids">
+						<div class="contact-grid">
+							<h4>Find Me </h4>
+							<div class="address">
+								<p>HTML Ipsum Presents:</p>
+								<p>Lorem ipsum dolor sit amet</p>
+								<p>Mobile No : +2257658697</p>
+								<p>TelePhone No : +24559308649</p>
+								<p>FAX : +2435475877</p>
+								<p>Email  :<span> [at] yourdomain.com</span></p>
+							</div>
+						</div>
+						<div id="contact" class="contact-grid1">
+							<form action = " " method = "get">
+									<input autofocus = "autofocus" class="button3" name = " "  required = "required" type = "text"  placeholder = "Enter Your Name"/>
+									 <input name = "Telephonet" class="button3" required = "required" type = "text" placeholder="Enter Your Telephone"/> 
+									<input name = "first_name" class="button4"  placeholder = "Enter Your Email" required = "required" type = "email" />
+								
+							    
+								<div class="contacts-desc">
+									  <textarea name = " "  placeholder = "Enter Your Message" required = "required" type = "text"></textarea>
+								</div>
+								</div>
+								<div class="contact-grid2">
+									
+									<input type="reset" name="reset_form" value="RESET">
+									<input type = "submit" value = "SUBMIT" />
+									<!---
+									<input type="reset" class="contact-buttons" value="RESET">
+									<a class="contact-buttons" href="#">SEND</a>
+									---->
+								</div>
+						   </form>
+					<div class="clear"> </div>
+					</div>
+				</div>
+				</div>
+<!---------end contact--------------->
 </div>
-</div>
-<!-- start footer  -->
-<div class="footer_bg">
-<div class="wrap">
-	<div class="footer">
-		<div class="span_of_4">
-			<div class="span1_of_4">
-				<h2>recent posts</h2>
-				<ul class="f_nav1">
-					<li><a href="">This is a sample blog post with an extra super  long title</a></li>
-					<li><a href="">This is a sample blog post</a></li>
-					<li><a href="">This is another sample post</a></li>
-					<li><a href="">This is yet anothe sample</a></li>
-					<li><a href="">This is a fifth sample blog post</a></li>
-				</ul>
-			</div>
-			<div class="span1_of_4">
-				<h2>recent comments</h2>
-				<ul class="f_nav1">
-					<li><a href="">This is a sample blog post with an extra super  long title</a></li>
-					<li><a href="">This is a sample blog post</a></li>
-					<li><a href="">This is another sample post</a></li>
-					<li><a href="">This is yet anothe sample</a></li>
-					<li><a href="">This is a fifth sample blog post</a></li>
-				</ul>
-			</div>
-			<div class="span1_of_4">
-				<h2>tag cloud</h2>
-				<ul class="f_nav2">
-					<li><a href="">sample</a></li>
-					<li><a href="">tag</a></li>
-					<li><a href="">sample</a></li>
-					<li><a href="">sample</a></li>
-					<li><a href="">tag</a></li>
-					<li><a href="">sample</a></li>
-					<li><a href="">tag</a></li>
-					<li><a href="">sample</a></li>
-					<li><a href="">tag</a></li>
-				</ul>
-			</div>
-			<div class="span1_of_4">
-				<h2>Retina</h2>
-				<p class="f_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-				<div class="search">
-		    		<form>
-		    			<input type="text" value="" placeholder="search...">
-		    			<input type="submit" value="">
-		    		</form>
+<!---------//footer//-------->
+		<div class="footer" style="margin-top: 60px">
+			<div class="wrap">
+			<div class="main">
+				<div class="footer-grids">
+					<div class="footer-grid1">
+						<h2>Links</h2>
+						<a href="#"><p>Pellentesque habitant morbi tristique senectus</p></a>
+						<a href="#"><p>Pellentesque habitant morbi tristique senectus</p></a>
+						<a href="#"><p>Pellentesque habitant morbi tristique senectus</p></a>
+						<a href="#"><p>Pellentesque habitant morbi tristique senectus</p></a>
+						<a href="#"><p>Pellentesque habitant morbi tristique senectus</p></a>	
+					</div>
+					<div class="footer-grid2">
+						<h2>About Business</h2>
+						<p>Features include easily adding indicator support  multiple instances, Vestibulum tortor quam.</p>
+						<p>Features include easily adding indicator support  multiple instances, Vestibulum tortor quam.</p>
+						<p>Features include easily adding indicator support  multiple instances, Vestibulum tortor quam.</p>
+					</div>
+					<div class="footer-grid3">
+						<h2>Staff Photos</h2>
+						<div class="footer-sub-grids-images">
+							 <a class="fancybox" rel="group" href="images/grid-pic1.jpg" title="PhotoGraphy"> <img src="images/grid-pic1h.jpg"></a>
+							 <a class="fancybox" rel="group" href="images/grid-pic2.jpg" title="PhotoGraphy"> <img src="images/grid-pic2h.jpg"></a>
+							 <a class="fancybox" rel="group" href="images/grid-pic3.jpg" title="PhotoGraphy"> <img src="images/grid-pic3h.jpg"></a>
+							 <a class="fancybox" rel="group" href="images/grid-pic3.jpg" title="PhotoGraphy"> <img src="images/grid-pic1h.jpg"></a>
+							 <a class="fancybox" rel="group" href="images/grid-pic2.jpg" title="PhotoGraphy"> <img src="images/grid-pic2h.jpg"></a>
+							 <a class="fancybox" rel="group" href="images/grid-pic1.jpg" title="PhotoGraphy"> <img src="images/grid-pic3h.jpg"></a>
+							 <a class="fancybox" rel="group" href="images/grid-pic1.jpg" title="PhotoGraphy"> <img src="images/grid-pic1h.jpg"></a>
+							 <a class="fancybox" rel="group" href="images/grid-pic2.jpg" title="PhotoGraphy"> <img src="images/grid-pic2h.jpg"></a>
+							 <a class="fancybox" rel="group" href="images/grid-pic3.jpg" title="PhotoGraphy"> <img class="last-img" src="images/grid-pic3h.jpg"></a>
+							 <div class="clear"> </div>
+						</div>
+					<script src="js/jquery.fancybox.js"></script>
+				        <script type="text/javascript">
+							$(document).ready(function() {
+								$(".fancybox").fancybox();
+							});
+						</script>
+					</div>
+					<div class="clear"> </div>
 				</div>
 			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="footer_btm">
-			<div class="social-icons">
-			     <ul>
-			        <li><a href="#" target="_blank"> </a></li>
-			        <li><a  href="#" target="_blank"></a></li>
-			        <li><a  href="#" target="_blank"></a></li>
-			        <li><a href="#" target="_blank"></a></li>
-			        <li><a href="#" target="_blank"></a></li>
-			        <li><a href="#" target="_blank"></a></li>
-			        <li><a href="#" target="_blank"> </a></li>
-			        <li><a  href="#" target="_blank"></a></li>
-			        <li><a  href="#" target="_blank"></a></li>
-			        <li><a href="#" target="_blank"></a></li>
-			        <li><a href="#" target="_blank"></a></li>
-			    	<li><a href="#" target="_blank"></a></li>
-				</ul>
 			</div>
-		<div class="copy">
-			<p class="w3-link">Copyright 2013 <span><a href="index.html"> Retina </a></span>. Template by&nbsp; <a href="http://w3layouts.com/"> W3Layouts</a></p>
 		</div>
-		<div class="clear"></div>
-	</div>
-	</div>
-</div>
-</div>
-</body>
+		<footer>
+		<div class="wrap">
+			<div class="main">
+		<p>&copy; All rights reserved. Template by <a href="http://w3layouts.com/">w3layouts.com</a></p>
+		</div>
+		</div>
+		</footer>
+		
+	</body>
 </html>
