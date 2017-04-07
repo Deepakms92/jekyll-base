@@ -42,10 +42,17 @@ body{
 }
 .header{
 	background:#f6f6f6;
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    
 }
 .logo {
 	float:left;
 	padding-top: 4px;
+    
 }
 /*--menu--*/
  .cssmenu{
@@ -112,7 +119,53 @@ font-size: 11px;
 background: #ffffff;
 }
 
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #000;
+    background:#3379ce; 
+}
   
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    color: #000;
+    background: #3379ce;
+    
+    
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 15px 10px;
+    margin: 10px;
+}
+.navbar-default .navbar-nav>li>a {
+    
+    color: #000;
+    
+    
+    
+}
+
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #000;
+    background:#3379ce ;
+}
+.navbar-default {
+    background:#f6f6f6;
+    border-color: transparent;
+}
+
+
+.dropdown-menu>li>a {
+    
+    color: #000;
+    background:#3379ce ;
+    margin: 2px;
+    padding: 15px 10px;
+    }
+
+
 /**** Slider *****/
 .index-banner{
 	background:url(../images/banner.jpg)no-repeat;
